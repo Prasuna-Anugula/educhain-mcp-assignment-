@@ -1,0 +1,47 @@
+Response from MCP server:
+{'ethical_considerations': 'Introduce how automation in Python can impact jobs and data privacy concerns.', 'learning_adaptations': 'Provide simpler examples for younger students, and add extra practice for older students.', 'learning_objectives': ['Understand basic Python syntax', 'Recognize and use variables and data types', 'Write simple loops and conditionals'], 'lesson_introduction': 'In this lesson, students will explore foundational Python concepts through hands-on activities and real-world examples.', 'main_topics': [{'subtopics': [{'assessment_ideas': [{'description': 'Short quiz on variable types and assignment.', 'type': 'quiz'}], 'discussion_questions': [{'question': 'Why are variables important in programming?'}], 'hands_on_activities': [{'description': 'Declare and print variables for name, age, and a score.', 'title': 'Create Your First Variables'}], 'key_concepts': [{'content': 'A variable stores information for later use.', 'type': 'definition'}, {'content': "x = 5, name = 'Alice'", 'type': 'example'}], 'reflective_questions': [{'question': 'What types of data can Python variables hold?'}], 'title': 'Variables and Data Types'}], 'title': 'Python Basics'}], 'real_world_applications': 'Python is used in web development, automation, and AI — foundational for many careers.', 'subject': 'Computer Science', 'title': 'Introduction to Python'}
+Response from MCP server:
+{'ethical_considerations': 'Explore potential ethical issues related to Cybersecurity.', 'learning_adaptations': 'Provide scaffolding and support for learners new to Cybersecurity.', 'learning_objectives': ['Understand core concepts of Cybersecurity', 'Apply knowledge of Cybersecurity to real-world examples', 'Evaluate and reflect on key ideas within Cybersecurity'], 'lesson_introduction': 'This lesson introduces students to foundational ideas and real-world relevance of Cybersecurity.', 'main_topics': [{'subtopics': [{'assessment_ideas': [{'description': 'Create a poster or presentation explaining Cybersecurity.', 'type': 'project'}], 'discussion_questions': [{'question': 'Why is Cybersecurity important in today’s world?'}], 'hands_on_activities': [{'description': 'Group activity analyzing a real-world example of Cybersecurity.', 'title': 'Explore Cybersecurity'}], 'key_concepts': [{'content': 'Key terms and concepts in Cybersecurity.', 'type': 'definition'}, {'content': 'An everyday scenario involving Cybersecurity.', 'type': 'example'}], 'reflective_questions': [{'question': 'How does Cybersecurity affect you personally?'}], 'title': 'Core Principles of Cybersecurity'}], 'title': 'Cybersecurity Deep Dive'}], 'real_world_applications': 'Cybersecurity is used across industries and societal systems.', 'subject': 'General Studies', 'title': 'Introduction to Cybersecurity'}
+Command : Generate a lesson plan on Cybersecurity 
+Output :
+Raw output from LLM:
+
+    {
+        "title": "Introduction to Cybersecurity",
+        "subject": "General Studies",
+        "learning_objectives": [
+            "Understand core concepts of Cybersecurity",
+            "Apply knowledge of Cybersecurity to real-world examples",
+            "Evaluate and reflect on key ideas within Cybersecurity"
+        ],
+        "lesson_introduction": "This lesson introduces students to foundational ideas and real-world relevance of Cybersecurity.",
+        "main_topics": [
+            {
+                "title": "Cybersecurity Deep Dive",
+                "subtopics": [
+                    {
+                        "title": "Core Principles of Cybersecurity",
+                        "key_concepts": [
+                            {"type": "definition", "content": "Key terms and concepts in Cybersecurity."},
+                            {"type": "example", "content": "An everyday scenario involving Cybersecurity."}
+                        ],
+                        "discussion_questions": [
+                            {"question": "Why is Cybersecurity important in today’s world?"}
+                        ],
+                        "hands_on_activities": [
+                            {"title": "Explore Cybersecurity", "description": "Group activity analyzing a real-world example of Cybersecurity."}
+                        ],
+                        "reflective_questions": [
+                            {"question": "How does Cybersecurity affect you personally?"}
+                        ],
+                        "assessment_ideas": [
+                            {"type": "project", "description": "Create a poster or presentation explaining Cybersecurity."}
+                        ]
+                    }
+                ]
+            }
+        ],
+        "learning_adaptations": "Provide scaffolding and support for learners new to Cybersecurity.",
+        "real_world_applications": "Cybersecurity is used across industries and societal systems.",
+        "ethical_considerations": "Explore potential ethical issues related to Cybersecurity."
+    }
